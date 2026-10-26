@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gull Harbor</title>
+  <meta name="description" content="Gull Harbor is a boat-handling game for iPhone and iPad, set in a small Maine harbor, with real wind, tide and boat physics.">
+  <meta name="theme-color" content="#0B2545">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="home">
+  <header class="site-header">
+    <nav class="wrap" aria-label="Site">
+      <span></span>
+      <ul class="nav">
+        <li><a href="privacy/">Privacy</a></li>
+        <li><a href="support/">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1><img src="assets/lockup-stacked-white.svg" width="719" height="488" alt="Gull Harbor: boat handling and harbor jobs"></h1>
+        <div>
+          <p class="pitch">Wind on the beam, tide under the keel, and a slip just wide enough. Gull Harbor is a boat-handling game set in a small Maine harbor, with real wind, tide and boat physics.</p>
+          <p>
+            <a class="button" id="app-store" href="https://apps.apple.com/" hidden>View on the App Store</a>
+            <span class="button soon" id="coming-soon">Coming soon to the App Store</span>
+          </p>
+          <p class="platforms">For iPhone and iPad</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="shots" aria-label="Screenshots">
+      <div class="wrap">
+        <ul>
+          <li><img src="assets/shots/01-berth-crosswind.jpg" width="1434" height="660" alt="Dock in a crosswind: a launch lines up on an empty marina slip, seen from above."></li>
+          <li><img src="assets/shots/02-harbor-tug-tow.jpg" width="1434" height="660" loading="lazy" alt="Tow with the Harbor Tug: the tug steers a towed lobster boat toward the boatyard, with twin throttles and the wheel on screen."></li>
+          <li><img src="assets/shots/03-handling-choice.jpg" width="1434" height="660" loading="lazy" alt="Start easy in Arcade: the choice between Arcade and Realistic handling. Realistic pays 25% more."></li>
+          <li><img src="assets/shots/04-sar-pickup.jpg" width="1434" height="660" loading="lazy" alt="Answer the rescue call: the Rescue Boat stops beside a survivor in the water."></li>
+          <li><img src="assets/shots/05-pilot-transfer.jpg" width="1434" height="660" loading="lazy" alt="Run the pilot out: the pilot boat matches speed alongside a ship, at the ladder."></li>
+          <li><img src="assets/shots/09-boat-shop.jpg" width="1434" height="660" loading="lazy" alt="Build your fleet: the Harbor Tug in the boat shop, with sea-trial ratings."></li>
+          <li><img src="assets/shots/10-maine-harbor.jpg" width="1434" height="660" loading="lazy" alt="Explore a Maine harbor: the marina, the yacht club and the town from above."></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features" aria-label="About the game">
+      <div class="wrap">
+        <div>
+          <h2>Real boat handling</h2>
+          <p>Wind, tide, current and swell push every boat. Momentum, windage and prop walk decide how each hull stops, turns and backs.</p>
+        </div>
+        <div>
+          <h2>A harbor career</h2>
+          <p>Start in a 6.6&nbsp;m RIB running water taxis, then work up through exams and licenses to pilot runs, tows, rescues and a fleet of your own.</p>
+        </div>
+        <div>
+          <h2>Easy to start</h2>
+          <p>Arcade handling makes the first jobs gentle. Switch to Realistic any time between jobs for the full model and 25% more pay.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul class="footer-links">
+        <li><a href="privacy/">Privacy policy</a></li>
+        <li><a href="support/">Support</a></li>
+      </ul>
+      <p>© 2026 Justin Rosenblatt</p>
+    </div>
+  </footer>
+
+  <script>
+    // Gull Harbor's Apple ID, digits only: App Store Connect › App Information › Apple ID.
+    // Until it's filled in, the page says "Coming soon to the App Store".
+    const appStoreID = "";
+    if (appStoreID) {
+      const link = document.getElementById("app-store");
+      link.href = "https://apps.apple.com/app/id" + appStoreID;
+      link.hidden = false;
+      document.getElementById("coming-soon").hidden = true;
+    }
+  </script>
+</body>
+</html>
