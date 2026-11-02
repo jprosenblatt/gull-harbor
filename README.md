@@ -27,7 +27,9 @@ If the site ends up somewhere else, change the three files to match.
 
 ## The App Store link
 
-The home page's "View on the App Store" button links to https://apps.apple.com/app/gull-harbor/id6825458182 (Apple ID 6825458182). That address has no country in it, so each visitor gets their own country's store.
+The home page's "Download on the App Store" badge links to https://apps.apple.com/app/gull-harbor/id6825458182 (Apple ID 6825458182). That address has no country in it, so each visitor gets their own country's store.
+
+The badge, `assets/app-store-badge.svg`, is Apple's black US/UK English artwork, downloaded unchanged from https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg. Apple's [marketing guidelines](https://developer.apple.com/app-store/marketing/guidelines/) don't allow changing, recolouring or animating it. The guidelines also set a minimum height of 40 px and clear space of a quarter of the badge's height on every side.
 
 ## Changing a page
 

@@ -141,6 +141,12 @@ a:hover { text-decoration-color: currentColor; }
 .button:hover { background: var(--orange-hover); }
 .button:focus-visible { outline-color: #FFFFFF; }
 
+/* Apple's black badge, unmodified (developer.apple.com/app-store/marketing/guidelines/). Its
+   clear space is a quarter of its height, 13.5 px, which the margins around it already give. */
+.app-store-badge { display: inline-block; line-height: 0; border-radius: 9px; }
+.app-store-badge img { height: 54px; width: auto; }
+.app-store-badge:focus-visible { outline-color: #FFFFFF; }
+
 /* Home. */
 
 .home { background: var(--navy); color: #FFFFFF; }
