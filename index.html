@@ -29,8 +29,7 @@
         <div>
           <p class="pitch">Wind on the beam, tide under the keel, and a slip just wide enough. Gull Harbor is a boat-handling game set in a small Maine harbor, with real wind, tide and boat physics.</p>
           <p>
-            <a class="button" id="app-store" href="https://apps.apple.com/" hidden>View on the App Store</a>
-            <span class="button soon" id="coming-soon">Coming soon to the App Store</span>
+            <a class="button" href="https://apps.apple.com/app/gull-harbor/id6825458182">View on the App Store</a>
           </p>
           <p class="platforms">For iPhone and iPad</p>
         </div>
@@ -78,17 +77,5 @@
       <p>© 2026 Justin Rosenblatt</p>
     </div>
   </footer>
-
-  <script>
-    // Gull Harbor's Apple ID, digits only: App Store Connect › App Information › Apple ID.
-    // Until it's filled in, the page says "Coming soon to the App Store".
-    const appStoreID = "";
-    if (appStoreID) {
-      const link = document.getElementById("app-store");
-      link.href = "https://apps.apple.com/app/id" + appStoreID;
-      link.hidden = false;
-      document.getElementById("coming-soon").hidden = true;
-    }
-  </script>
 </body>
 </html>

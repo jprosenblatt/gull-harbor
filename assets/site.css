@@ -140,11 +140,6 @@ a:hover { text-decoration-color: currentColor; }
 }
 .button:hover { background: var(--orange-hover); }
 .button:focus-visible { outline-color: #FFFFFF; }
-.button.soon {
-  background: transparent;
-  color: var(--ink-on-dark);
-  border: 2px solid var(--edge);
-}
 
 /* Home. */
 

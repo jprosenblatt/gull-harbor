@@ -25,9 +25,9 @@ The listing already points at **https://jprosenblatt.github.io/gull-harbor/**: `
 
 If the site ends up somewhere else, change the three files to match.
 
-## When the app has its Apple ID
+## The App Store link
 
-App Store Connect shows the ID under **App Information › Apple ID**, as a number. Put it in `index.html`, where it says `const appStoreID = ""`, and upload `index.html` again. The page's "Coming soon to the App Store" label then becomes a "View on the App Store" link.
+The home page's "View on the App Store" button links to https://apps.apple.com/app/gull-harbor/id6825458182 (Apple ID 6825458182). That address has no country in it, so each visitor gets their own country's store.
 
 ## Changing a page
 
